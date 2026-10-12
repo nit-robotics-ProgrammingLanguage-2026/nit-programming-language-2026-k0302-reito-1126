@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-double main(void) {
+int main(void) {
     /* 課題0302: このプログラムは間違っています。修正してください */
     double d;
-    scanf("%f", &d);
-    printf("%f", d); 
+    scanf("%e", &d);
+    printf("%e", d); 
     return 0;
 }
